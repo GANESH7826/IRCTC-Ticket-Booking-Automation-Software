@@ -13,7 +13,7 @@ namespace IRCTC_APP
 {
     public partial class Form1 : Form
     {
-        // private string connectionString = "Server=tcp:gadarprouserlogin.database.windows.net,1433;Initial Catalog=login;Persist Security Info=False;User ID=ganesh2993;Password=Ganesh@2993;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+      
         private string currentVersion;
         private string latestVersion;
         private readonly string versionUrl = "https://raw.githubusercontent.com/GANESH7826/gadarproinstaller/main/version.txt.txt";
@@ -46,9 +46,7 @@ namespace IRCTC_APP
 
 
 
-                //string connectionString = "Server=tcp:gadarprouserlogin.database.windows.net,1433;Initial Catalog=login;Persist Security Info=False;User ID=ganesh2993;Password=Ganesh@2993;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-                string connectionString = "Server=tcp:gadarlogin.database.windows.net,1433;Initial Catalog=gadarprologinuserdatabase;Persist Security Info=False;User ID=GANESH2993;Password=Ganesh@2993;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-
+               
                 string username = username_txt.Text;
                 string password = password_txt.Text;
                 string macAddress = GetMacAddress();
